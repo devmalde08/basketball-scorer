@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    font-family: 'Bruno Ace', cursive;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.score {
+    color: red;
+    font-size: 60px;
+    background-color: black;
+    text-align: center;
+    padding: 50px 60px;
+    margin: 15px 0px;
+    border-radius: 20px
+}
+
+button {
+    font-family: inherit;
+    font-size: 20px;
+    background: none;
+    border: 1px solid #7A89B4;
+    border-radius: 2px;
+    color: #7A89B4;
+}
